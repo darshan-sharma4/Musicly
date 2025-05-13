@@ -1,0 +1,60 @@
+.invert {
+    filter: invert(1);
+}
+
+.p1 {
+    padding: 10px;
+}
+
+.rounded {
+    border-radius: 9px;
+}
+
+.bg-grey {
+    background-color: #121212;
+}
+
+.p2 {
+    padding: 14px;
+}
+
+.m-1 {
+    margin: 7px;
+}
+
+.m-2 {
+    margin-left: 20px;
+}
+
+
+
+.flex {
+    display: flex;
+}
+
+/* Style for the entire scrollbar */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+/* Style for the scrollbar track (background) */
+::-webkit-scrollbar-track {
+    background-color: #2c2c2c; /* Dark background color for the track */
+}
+
+/* Style for the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+    background-color: #6e6e6e; /* Dark gray color for the thumb */
+    border-radius: 10px; /* Rounded corners for the thumb */
+    border: 2px solid #2c2c2c; /* Add a border with the same color as the track */
+}
+
+/* Optional: Hover effect for the scrollbar thumb */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #8c8c8c; /* Slightly lighter gray on hover */
+}
+
+/* Optional: Active (clicking) effect for the scrollbar thumb */
+::-webkit-scrollbar-thumb:active {
+    background-color: #a1a1a1; /* Even lighter gray when clicked */
+}
